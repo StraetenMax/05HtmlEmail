@@ -49,7 +49,7 @@
             text-align: center;
         }
         .logo img{
-            max-width:250%;
+            max-width:250px;
         }
         h1,h2{
             letter-spacing: 1px;
@@ -97,6 +97,18 @@
             text-align: center;
             padding: 6%;
         }
+        @media only screen and (max-width: 600px){
+            .two-col{
+                margin: 10px 0 26px;
+                width: 90%;
+                padding: 2% 5%;
+            }
+            .three-col{
+                margin: 10px 0 26px;
+                width: 90%;
+                padding: 2% 5%;
+            }
+        } 
     </style>
 </head>
 <body>
@@ -114,6 +126,7 @@
         <div class="banner">
             <img src="./img/banner.jpg" alt="">
         </div>
+        <!--Two columns-->
         <div class="two-col">
             <img src="img/left-col.jpg" alt="">
         </div>
@@ -121,10 +134,11 @@
             <h2>Latest Blog Post</h2>
             <p>There are many different email clients to consider when determining the width of your design.</p>
             <div class="button-holder">
-                <a href="" target="_blank" class="btn">Get Started</a>
+                <a href="#" target="_blank" class="btn">Get Started</a>
             </div>
         </div>
         <div class="line"></div>
+        <!--Three columns-->
         <div class="three-col">
             <h2>Ecommerce</h2>
             <img src="./img/1.png" alt=""/>
@@ -150,6 +164,7 @@
             </div>
         </div>
         <div class="line"></div>
+        <!--footer-->
         <p class="contact">
             www.responsivehtmlemail.com<br>
             1(800) 555-5555<br>
@@ -157,6 +172,5 @@
             test@responsivehtmlemail.com
         </p>
     </div>     
-    
 </body>
 </html>
